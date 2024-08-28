@@ -1,0 +1,42 @@
+body{
+    font-family: Arial;
+    background-color: lightblue ;
+}
+.todogrid{
+    
+    display: grid;
+    grid-template-columns:200px 150px 100px;
+    gap: 10px;
+    margin-bottom: 7px;
+    align-items: center;
+}
+.inputgrid{
+    
+    display: grid;
+    grid-template-columns:200px 150px 100px;
+    gap: 10px;
+    margin-bottom: 7px;
+    align-items: stretch;
+
+}
+.addbutton{
+    background-color: green;
+    color: white;
+    text-align: center;
+    height: 35px;
+    width: 100px;
+    border:none;
+    cursor: pointer;
+}
+.deletebutton{
+    background-color:red;
+    color: white;
+    text-align: center;
+    height: 35px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}
